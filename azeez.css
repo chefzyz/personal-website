@@ -7,10 +7,17 @@ h1{
 	border-top: solid;
 	color:black;
 	border-radius: 5px;
+	margin-bottom: 10px;
 }
-h2{
+h2,h3{
 	text-align: center;
 	font-family: 'Jura', Monaco;
+}
+.ab_wrapper{
+	margin-top: 75px;
+}
+.ab_h2{
+	text-decoration: underline;
 }
  .links li{
 	list-style: none;
@@ -73,6 +80,11 @@ nav{
 }
 .p_wrapper{
 	width: 900px;
+}
+p{
+	font-family: 'Jura', Georgia;
+	font-weight: bold;
+	text-align: center;
 }
 .column1,.column2{
 	display: inline-block;
