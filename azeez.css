@@ -1,0 +1,108 @@
+h1{
+	text-align: center;
+	font-family: 'Roboto Condesed', Georgia;
+	font-weight: normal;
+	font-size: 65px;
+	border-bottom: solid;
+	border-top: solid;
+	color:black;
+	border-radius: 5px;
+}
+h2{
+	text-align: center;
+	font-family: 'Jura', Monaco;
+}
+ .links li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 20px;
+	text-align: center;
+}
+.links a{
+	text-decoration: none;
+	font-family: 'Jura', Monaco;
+	color:black;
+	font-size: 25px;
+	font-weight: bold;
+}
+nav{
+	text-align: center;
+}
+.homepage{
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+/*.facebook,.email{
+	float:left;
+	width: 100px;
+}
+
+/*.instagram{
+	float: right;
+	width: 100px;
+	margin-right: 100px;
+}
+.facebook{
+	margin-left: 80px;
+}*/
+.column1,.column2,.column3,.column4,.column5{
+	float: left;
+	width: 450px;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.column6,.column7,.column8,.column9,.column10{
+	border-style: solid;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 450px;
+}
+.column2_wrapper{
+	float: right;
+	width: 450px;
+	margin-right: -200px;
+	margin-top: 30px;
+}
+.p_wrapper{
+	width: 900px;
+}
+.column1,.column2{
+	display: inline-block;
+}
+.contact_box{
+	width: 500px;
+	border-style: solid;
+	border-radius: 10px;
+	height: 220px;
+	float: right;
+	margin-right: 340px;
+	margin-top: 50px;
+	text-align: center;
+}
+.email,.facebook,.instagram{
+	display: inline-block;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.homepage
+{
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         5s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
