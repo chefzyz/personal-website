@@ -5,9 +5,13 @@ h1{
 	font-size: 65px;
 	border-bottom: solid;
 	border-top: solid;
-	color:black;
 	border-radius: 5px;
 	margin-bottom: 10px;
+	background-color: #E2E8F2;
+}
+.h1-wrapper{
+	text-decoration: none;
+	color: black;
 }
 h2,h3{
 	text-align: center;
@@ -29,7 +33,7 @@ h2,h3{
 .links a{
 	text-decoration: none;
 	font-family: 'Jura', Monaco;
-	color:black;
+	color: #906A70;
 	font-size: 25px;
 	font-weight: bold;
 }
