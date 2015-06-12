@@ -1,6 +1,6 @@
 h1{
 	text-align: center;
-	font-family: 'Roboto Condesed', Georgia;
+	font-family: 'Roboto Condesed';
 	font-weight: normal;
 	font-size: 65px;
 	border-bottom: solid;
@@ -46,6 +46,22 @@ nav{
 	margin: 0 auto;
 	margin-top: 60px;
 }
+div.portfolio figure{
+	display: inline-block;
+}
+figure{
+	text-align: center;
+}
+.coffee,.stock,.vegetables,.candy,.chilli-pepper,.bread{
+	width: 300px;
+	border-style: ridge;
+	border-radius: 4px;
+	border-color: black;
+}
+.coffee,.candy{
+	height: 223px;
+	float: bottom;
+}
 
 /*.facebook,.email{
 	float:left;
@@ -60,28 +76,7 @@ nav{
 .facebook{
 	margin-left: 80px;
 }*/
-.column1,.column2,.column3,.column4,.column5{
-	float: left;
-	width: 450px;
-	border-style: solid;
-	border-radius: 10px;
-	margin-left: 100px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-.column6,.column7,.column8,.column9,.column10{
-	border-style: solid;
-	border-radius: 10px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	width: 450px;
-}
-.column2_wrapper{
-	float: right;
-	width: 450px;
-	margin-right: -200px;
-	margin-top: 30px;
-}
+
 .p_wrapper{
 	width: 900px;
 }
@@ -89,9 +84,6 @@ p{
 	font-family: 'Jura', Georgia;
 	font-weight: bold;
 	text-align: center;
-}
-.column1,.column2{
-	display: inline-block;
 }
 .contact_box{
 	width: 500px;
