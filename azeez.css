@@ -48,9 +48,17 @@ nav{
 }
 div.portfolio figure{
 	display: inline-block;
+	margin-top: 20px;
 }
 figure{
 	text-align: center;
+	font-family: 'Jura', Georgia;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-bottom: 50px;
+}
+figure figcaption{
+	margin-bottom: 5px;
 }
 .coffee,.stock,.vegetables,.candy,.chilli-pepper,.bread{
 	width: 300px;
