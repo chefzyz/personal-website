@@ -1,0 +1,25 @@
+h1{
+	text-align: center;
+	font-family: "Oswald", Monaco;
+}
+.rectangle-box{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: green;
+    float: left;
+    margin-right:312px;
+    top: 55px;
+    border-style: solid;
+    border-width: 5px;
+}
+.rectangle-box:before{
+    content: "";
+    display: block;
+    padding-top: 50%;
+}
+.circle{
+	float: left;
+	font-size: 90px;
+	margin-left: 252px;	
+}

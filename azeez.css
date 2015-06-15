@@ -49,6 +49,7 @@ nav{
 div.portfolio figure{
 	display: inline-block;
 	margin-top: 20px;
+	text-align: center;
 }
 figure{
 	text-align: center;
@@ -98,8 +99,7 @@ p{
 	border-style: solid;
 	border-radius: 10px;
 	height: 220px;
-	float: right;
-	margin-right: 340px;
+	margin:0 auto;
 	margin-top: 50px;
 	text-align: center;
 }
@@ -114,6 +114,15 @@ p{
     -webkit-transform: rotate(360deg);
   }
 }
+/* Mozilla Webkit */
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
 
 .homepage
 {
@@ -121,4 +130,8 @@ p{
     -webkit-animation-duration:         5s; 
     -webkit-animation-iteration-count:  infinite;
     -webkit-animation-timing-function: linear;
+     -moz-animation-name:             rotate; 
+    -moz-animation-duration:         5s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-animation-timing-function: linear;
 }
